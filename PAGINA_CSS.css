@@ -1,0 +1,135 @@
+*{
+    
+    
+   border: 0;
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+    
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    
+    
+    background-color: rgb(219, 171, 238);
+    height: 70px;
+    display: flex;
+    width: 100%;
+     
+}
+
+.dark-mode-button{
+    position: absolute;
+    margin-top: 25px;
+    cursor: pointer;
+    font-size: 15px;
+    background:crimson; 
+    color: white;
+    padding:10px;
+    border-radius: 5px;
+    display: flex;
+    
+    
+}
+.dark-mode-button:hover{
+    
+background: red;
+}
+
+#btn-menu{
+    
+    
+    
+    display: none;
+}
+
+.dark{
+    
+    margin-top: -10px;
+margin-left: 1050px;
+    
+}
+
+header p{
+    
+    font-size: 30px;
+    color: white;
+    margin-top: 13px;
+    margin-left: 30px;
+    width:150px;
+    
+}
+
+.dark-mode{
+    color: whitesmoke;
+    
+    background: #0f0f0f;
+}
+
+.dark-mode header{
+    
+    
+    background: gray;
+    border-bottom: 2px solid #fff;
+}
+
+.lorem{
+    
+    padding: 10px 100px;
+    
+    
+}
+.lorem p{
+    
+    
+  font-size: 20px;
+    padding: 10px;
+    
+}
+.Botones{
+    background-color: blueviolet;
+    border: rgb(0, 238, 255);
+    border-color: black;
+    border-width: 5px;
+    color: black;
+    padding: 5px;
+    margin-bottom: 20px;
+    padding: 2px 10px 2px 0;
+    border-radius: 35px;
+    width: 1500;
+    cursor: pointer;
+    font-style: italic; color: #87cfa7;
+ 
+}
+.Botones:hover{
+    background-color: rgb(42, 75, 165);
+    width: 200px;
+
+}
+.Botones:active{
+    border:inset
+}
+.lorem h1{
+    
+    
+    padding: 10px ;
+    font-size: 50px;
+    border-bottom: 3px solid crimson;
+    
+}
+(max-width:768px){
+    
+    .dark{
+    margin-left: 30px;
+    
+    
+}
+    
+
+    
+    
+}
+
+

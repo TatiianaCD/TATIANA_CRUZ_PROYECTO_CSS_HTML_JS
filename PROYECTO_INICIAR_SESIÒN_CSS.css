@@ -1,0 +1,185 @@
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+body {
+	line-height: 1;
+}
+
+
+
+body {
+    font-family: sans-serif;
+}
+.espacio {
+    padding: 2em 0;
+}
+
+
+
+.contenido-boton {
+    padding: 0em 4em;
+    margin: 0 1em;
+    position: relative;
+    z-index: 1;
+}
+.logo h1 a {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+
+li.sw-a {
+    float: left;
+}
+
+
+.USUARIO-CONTRASEÑA-CUADRO label {
+    font-size: 15px;
+}
+
+
+
+
+form .USUARIO-CONTRASEÑA-CUADRO{
+    background: rgba(255, 109, 109, 0.459);
+    display: flex;
+    margin-bottom: 20px;
+    padding: 2px 10px 2px 0;
+    border-radius: 35px;
+}
+
+form .USUARIO-CONTRASEÑA-CUADRO span {
+    flex: 1;
+    width: 20%;
+    color: #fff;
+    background: transparent;
+    line-height: 49px;
+    text-align: right;
+}
+
+form .USUARIO-CONTRASEÑA-CUADRO .w-field {
+    flex: 4 50%;
+}
+
+.w-field button.btn {
+    background: #5900ff;
+    border: none;
+    color: #fff;
+    padding: 11px 15px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: 0.5s all;
+    border-radius: 35px;
+
+}
+
+.botom-grid, .bottom-grid1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0em 10em;
+}
+
+.w-field input {
+    padding: 10px 0 10px 15px;
+    font-size: 17px;
+    font-weight: 300;
+    color: rgb(248, 248, 248);
+    letter-spacing: 1px;
+    border: none;
+    background: transparent;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    width: 100%;
+    outline: none;
+}
+
+label.sw {
+    position: relative;
+    display: inline-block;
+    height: 18px;
+    padding-left: 3em;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 300;
+}
+.sw input {
+    display: none;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 2px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 21%;
+    background-color: rgb(255, 0, 0);
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 10px;
+    width: 10px;
+    left: 4px;
+    bottom: 3px;
+    background-color: rgb(224, 224, 224);
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #a101fd;
+}
+input:focus+.slider {
+}
+input:checked+.slider:before {
+    transform: translateX(14px);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.Botones{
+    background-color: blueviolet;
+    border: chartreuse;
+    border-color: black;
+    border-width: 5px;
+    color: black;
+    padding: 5px;
+    margin-bottom: 20px;
+    padding: 2px 10px 2px 0;
+    border-radius: 35px;
+    width: 1500;
+    cursor: pointer;
+    font-style: italic; color: #77f7b0;
+ 
+}
+.Botones:hover{
+    background-color: brown;
+    width: 200px;
+
+}
+.Botones:active{
+    border:inset
+}
+
